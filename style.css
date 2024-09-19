@@ -11,15 +11,45 @@
     display: grid;
 }
 header img{
-height: 320px;
+height: 340px;
 width: 1349px;
 
 }
 header h1{
-margin-top: -250px;
-color: rgb(0, 0, 0);
+margin-top: -180px;
+color: rgb(255, 255, 255);
+text-shadow: 2px 5px 4px black;
+margin-left: 550px;
+font-size: 70px;
 }
 
+header ul{
+height: 40px;
+width: 1349px;
+background-color: rgb(0, 139, 42);
+float: left;
+text-align: center;
+margin-top: -30px;
+}
+header li{
+float: left;
+text-align: center;
+text-decoration-line: none; 
+list-style: none;
+text-decoration: none;
+margin-top: 4px;
+
+}
+header a{
+float: left;
+text-align: center;
+font-size: 26px;
+margin-left: 90px;
+text-decoration: none;
+list-style: none;
+color: white;
+text-shadow: 2px 2px black;
+}
 main{
     background-color: brown;
     grid-template-columns: repeat(2);
